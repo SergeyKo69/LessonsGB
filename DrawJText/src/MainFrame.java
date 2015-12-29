@@ -16,7 +16,7 @@ public class MainFrame extends JFrame implements ActionListener {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new GridLayout(20, 10));
 		ChooseField chooseField = new ChooseField();
-		chooseField.setActionCommand("Test");
+		chooseField.setActionCommand("...");
 		chooseField.setActionListener(this);
 		add(chooseField);
 	}
