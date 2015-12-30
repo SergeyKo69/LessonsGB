@@ -22,7 +22,7 @@ public class Ex1 extends JPanel{
 		pTitle.add(lblTitle);
 		add(pTitle);
 		JPanel pDescr = new JPanel();
-		//pDescr.setLayout(new GridLayout(2,2));
+		pDescr.setLayout(new GridLayout(2,2));
 		JLabel lblDescr = new JLabel("Description:");
 		pDescr.add(lblDescr);
 		JFormattedTextField txtDescr = new JFormattedTextField();
